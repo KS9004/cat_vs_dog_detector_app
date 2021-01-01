@@ -66,11 +66,11 @@ class _HomeState extends State<Home> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 80.0,),
+            SizedBox(height: 70.0,),
             Text("Tensorflow",style: TextStyle(color: Color(0xFFEEDA28),fontSize: 35),),
             SizedBox(height: 6.0,),
             Text('Detect Dog and Cat',style: TextStyle(color: Color(0xFFE99600),fontWeight: FontWeight.w500,fontSize:30),),
-            SizedBox(height: 40,),
+            SizedBox(height: 30,),
             Center(child:_loading ? Container(
               width: 280,
               child: Column(
@@ -97,39 +97,41 @@ class _HomeState extends State<Home> {
               ),
             ),
             ),
-            Container(
-              width: MediaQuery.of(context).size.width,
-              child:Column(
-                children: [
-                  GestureDetector(
-                    onTap: pickerGalleryImage,
-                    child: Container(
-                      width: MediaQuery.of(context).size.width - 150,
-                      alignment: Alignment.center,
-                      padding: EdgeInsets.symmetric(horizontal: 24,vertical: 17),
-                      decoration: BoxDecoration(
-                        color: Color(0xFFE99600),
-                        borderRadius: BorderRadius.circular(6)
-                      ),
-                      child: Text("Take a Photo",style: TextStyle(color: Colors.white),),
-                    ),
-                  ),
-                  SizedBox(height: 10,),
-                  GestureDetector(
-                    onTap:pickerCameraImage,
-                    child: Container(
-                      width: MediaQuery.of(context).size.width - 150,
-                      alignment: Alignment.center,
-                      padding: EdgeInsets.symmetric(horizontal: 24,vertical: 17),
-                      decoration: BoxDecoration(
+            Expanded(
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                child:Column(
+                  children: [
+                    GestureDetector(
+                      onTap: pickerGalleryImage,
+                      child: Container(
+                        width: MediaQuery.of(context).size.width - 150,
+                        alignment: Alignment.center,
+                        padding: EdgeInsets.symmetric(horizontal: 24,vertical: 17),
+                        decoration: BoxDecoration(
                           color: Color(0xFFE99600),
                           borderRadius: BorderRadius.circular(6)
+                        ),
+                        child: Text("Take a Photo",style: TextStyle(color: Colors.white),),
                       ),
-                      child: Text("Camera Roll",style: TextStyle(color: Colors.white),),
                     ),
-                  )
-                ],
-              ) ,
+                    SizedBox(height: 10,),
+                    GestureDetector(
+                      onTap:pickerCameraImage,
+                      child: Container(
+                        width: MediaQuery.of(context).size.width - 150,
+                        alignment: Alignment.center,
+                        padding: EdgeInsets.symmetric(horizontal: 24,vertical: 17),
+                        decoration: BoxDecoration(
+                            color: Color(0xFFE99600),
+                            borderRadius: BorderRadius.circular(6)
+                        ),
+                        child: Text("Camera Roll",style: TextStyle(color: Colors.white),),
+                      ),
+                    )
+                  ],
+                ) ,
+              ),
             )
           ],
         ),
