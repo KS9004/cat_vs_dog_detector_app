@@ -112,7 +112,7 @@ class _HomeState extends State<Home> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(6)
                         ),
-                        child: Text("Take a Photo",style: TextStyle(color: Colors.white),),
+                        child: Text("Take a Photo",style: TextStyle(color:Color(0xFFE99600),),),
                       ),
                     ),
                     SizedBox(height: 10,),
@@ -126,7 +126,7 @@ class _HomeState extends State<Home> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(6)
                         ),
-                        child: Text("Camera Roll",style: TextStyle(color: Colors.white),),
+                        child: Text("Camera Roll",style: TextStyle(color: Color(0xFFE99600)),),
                       ),
                     )
                   ],
