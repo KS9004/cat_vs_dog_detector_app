@@ -20,8 +20,8 @@
 ## 📱 Screenshots #
 
 <p align="center">
-  <img src="https://i.imgur.com/GkY7KJa.jpg" width="200" hspace="2">
-  <img src="https://i.imgur.com/XcYWnf8.jpg" width="200" hspace="2">
+  <img src="https://i.imgur.com/GkY7KJa.jpg" width="250" hspace="4">
+  <img src="https://i.imgur.com/XcYWnf8.jpg" width="250" hspace="4">
   
 </p>
 
@@ -31,7 +31,7 @@
   <br>
 </h1>
 <p align="center">
-<a href="https://play.google.com/store/apps/details?id=com.classifier.cat_vs_dog" title="Image from PNG Image"><img src="https://i.imgur.com/e4O2rYY.png?1" height="115"width="300" alt="download android app png 4"></a>
+<a href="https://play.google.com/store/apps/details?id=com.classifier.cat_vs_dog" title="Image from PNG Image"><img src="https://i.imgur.com/e4O2rYY.png?1" height="140"width="200" alt="download android app png 4"></a>
 </p>
 
 
