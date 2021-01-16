@@ -22,8 +22,8 @@
 ## 📱 Screenshots #
 
 <p align="center">
-  <img src="https://i.imgur.com/GkY7KJa.jpg" width="250" hspace="4">
-  <img src="https://i.imgur.com/XcYWnf8.jpg" width="250" hspace="4">
+  <img src="https://i.imgur.com/GkY7KJa.jpg" width="200" hspace="4">
+  <img src="https://i.imgur.com/XcYWnf8.jpg" width="200" hspace="4">
   
 </p>
 
