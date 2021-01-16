@@ -2,8 +2,6 @@
 
 </h1>
 <p align="center">
-   <a href="https://github.com/KS9004">
-    <img src="https://img.shields.io/badge/?style=for-the-badge">
   </a>
   <a href="https://play.google.com/store/apps/details?id=com.classifier.cat_vs_dog">
     <img src="https://img.shields.io/badge/Google-PlayStore-green.svg?style=for-the-badge">
