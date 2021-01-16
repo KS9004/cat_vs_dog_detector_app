@@ -22,8 +22,8 @@
 ## 📱 Screenshots #
 
 <p align="center">
-  <img src="https://i.imgur.com/GkY7KJa.jpg" width="200" hspace="4">
-  <img src="https://i.imgur.com/XcYWnf8.jpg" width="200" hspace="4">
+  <img src="https://i.imgur.com/GkY7KJa.jpg" width="200" hspace="2">
+  <img src="https://i.imgur.com/XcYWnf8.jpg" width="200" hspace="2">
   
 </p>
 
@@ -53,6 +53,6 @@ If you found this project useful, then please consider giving it a :star: on Git
 
 
 ## 🐞 Bugs/Requests #
-If you encounter any bugs problems feel free to open an issue. If you feel the library is missing a feature, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
+If you encounter any bugs or problems feel free to open an issue. If you feel the library is missing a feature, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
 
 
